@@ -1,0 +1,106 @@
+100 Codons:
+
+translate_dna_to_protein took 0.000024 seconds
+Average execution time per call (best of 3 runs): 0.000022 seconds
+Peak memory usage: 66.03 MiB
+Profiling translate_dna_to_protein:
+
+   207 function calls in 0.000 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 functions.py:5(translate_dna_to_protein)
+      100    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+      100    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+
+Stability and variance of exec time: 
+
+'mean': 2.3339999961535797e-05 
+'median': 2.2149999949760968e-05
+'std_dev': 2.4115140814893617e-06
+
+'runs': [2.9299999823706457e-05, 2.3300000066228677e-05, 2.2400000034394907e-05, 2.210000002378365e-05, 2.280000035170815e-05, 2.2199999875738285e-05, 2.1799999558425043e-05, 2.2000000171829015e-05, 2.1800000013172394e-05, 2.4700000267330324e-05, 2.9400000130408444e-05, 2.229999972769292e-05, 2.189999986512703e-05, 2.1699999706470408e-05, 2.189999986512703e-05, 2.189999986512703e-05, 2.189999986512703e-05, 2.1800000013172394e-05, 2.7399999908084283e-05, 2.4200000098062446e-05]
+
+
+1000 Codons:
+
+translate_dna_to_protein took 0.000205 seconds
+Average execution time per call (best of 3 runs): 0.000201 seconds
+Peak memory usage: 66.43 MiB
+Profiling translate_dna_to_protein:
+
+   2007 function calls in 0.001 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001    0.001    0.001 functions.py:5(translate_dna_to_protein)
+     1000    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+
+Stability and variance of exec time: 
+'mean': 0.00019583500002227084, 
+'median': 0.0001942499998222047, 
+'std_dev': 4.057003346687688e-06, 
+
+'runs': [0.0002030000005106558, 0.00019749999955820385, 0.0001944999994520913, 0.0001934000001710956, 0.00020250000034138793, 0.00019950000023527537, 0.00020170000061625615, 0.00019979999979113927, 0.0001990000000660075, 0.0001998999996430939, 0.0001922999999806052, 0.00019160000010742806, 0.00019390000034036348, 0.00019109999993816018, 0.00019630000042525353, 0.00019250000059400918, 0.00019079999947280157, 0.00019269999938842375, 0.00019069999962084694, 0.0001940000001923181]}
+
+
+10000 Codons:
+
+translate_dna_to_protein took 0.001934 seconds
+Average execution time per call (best of 3 runs): 0.001889 seconds
+Peak memory usage: 66.66 MiB
+Profiling translate_dna_to_protein:
+
+   20007 function calls in 0.008 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.006    0.006    0.008    0.008 functions.py:5(translate_dna_to_protein)
+    10000    0.001    0.000    0.001    0.000 {method 'get' of 'dict' objects}
+    10000    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+
+Stability and variance of exec time: 
+'mean': 0.002046680000057677, 
+'median': 0.0019475000003694731, 
+'std_dev': 0.00023560232926762324, 
+
+'runs': [0.0019569999994928367, 0.0020334000000730157, 0.0029177999995226855, 0.0020150999998804764, 0.001939900000252237, 0.0019175999996150495, 0.0019123000001854962, 0.0019498000001476612, 0.0019382000000405242, 0.001968700000361423, 0.002044600000772334, 0.0020859999995082035, 0.0019415999995544553, 0.001906800000142539, 0.001945200000591285, 0.0019388000000617467, 0.0019209000001865206, 0.0019245000003138557, 0.00225250000039523, 0.002422900000055961]}
+
+
+
+Input size scaling exec time results: 
+10: [8.900000011635711e-06, 6.000000212225132e-06, 5.599999894911889e-06],
+50: [1.6399999822169775e-05, 1.2900000001536682e-05, 1.2700000297627412e-05], 
+100: [2.320000021427404e-05, 2.2200000330485636e-05, 2.210000002378365e-05], 
+500: [0.00010679999968488119, 0.00010780000002341694, 0.00010590000010779477], 
+1000: [0.0002096000002893561, 0.0002082999999402091, 0.0002127000002474233], 
+5000: [0.000988700000107201, 0.000984599999810598, 0.0012019000000691449], 
+10000: [0.0020239000000401575, 0.001981100000193692, 0.001999699999942095], 
+50000: [0.012659399999847665, 0.010147000000415574, 0.009988000000248576], 
+100000: [0.020920200000091427, 0.02055259999997361, 0.02139660000011645], 
+500000: [0.11252569999987827, 0.10469160000002375, 0.12312280000014653]
