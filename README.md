@@ -8,7 +8,7 @@ This script lets you feed in nucleotide sequences (either straight from a CSV or
 - Reads nucleotide sequences from a CSV or manual input.
 - Translates each sequence into amino acids automatically.
 - Performs both local alignments (Smith-Waterman) and global alignments (Needleman-Wunsch).
-- Lets you tweak scoring options (match, mismatch, and gap) to see how they affect alignment results.
+- Lets you tweak scoring options (match, mismatch, and gap) to see how they impact alignment results.
 - Keeps a log of all your alignments in one place.
 
 ---
